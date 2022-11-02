@@ -1,7 +1,7 @@
-num = 23
+let number = 23
 var isprime = true;
-for (let i = 2; i <  num; i++) {
-  if (num % i == 0) {
+for (let i = 2; i < number; i++) {
+  if (number % i == 0) {
     isprime = false;
     break;
   }
